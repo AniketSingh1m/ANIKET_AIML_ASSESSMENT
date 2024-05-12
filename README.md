@@ -1,50 +1,40 @@
-# ANIKET_AIML_ASSESSMENT
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Machine Learning Forecasting Project</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project README</title>
 </head>
 
 <body>
+    <h1>Project Overview</h1>
+    <p>This project focuses on forecasting sourcing costs using machine learning techniques. The goal is to accurately predict sourcing costs based on historical data and relevant features.</p>
 
-  <h1>Machine Learning Forecasting Project</h1>
+    <h2>XGBoost Performance</h2>
+    <ul>
+        <li>Test R2 Score: XGBoost has the highest test R2 score of 0.4039 among all the models.</li>
+        <li>Test RMSE and MAE: XGBoost also performs well in terms of test RMSE (40.2144) and test MAE (29.2672).</li>
+        <li>Advantages of XGBoost:
+            <ul>
+                <li>Complexity Handling</li>
+                <li>Regularization</li>
+                <li>Feature Importance</li>
+            </ul>
+        </li>
+    </ul>
 
-  <h2>Project Overview</h2>
-  <p>This project focuses on forecasting sourcing costs using machine learning techniques. The goal is to accurately predict sourcing costs based on historical data and relevant features.</p>
+    <!-- Other sections like Handling Outliers, Approaches for Forecasting, Comparison of Final Approach, etc. -->
 
-  <h2>Table of Contents</h2>
-  <ol>
-    <li><a href="#overview">Project Overview</a></li>
-    <li><a href="#strucutre">Project Structure</a></li>
-    <li><a href="#setup">Setup Instructions</a></li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#evaluation">Model Evaluation</a></li>
-    <li><a href="#conclusion">Conclusion</a></li>
-    <li><a href="#license">License</a></li>
-  </ol>
+    <h2>Data Preprocessing and Analysis</h2>
+    <p>Data Cleaning, Feature Engineering, Exploratory Data Analysis, Product Type and Manufacturer Insights, Sourcing Channel Performance, Trend Analysis by Feature Categories, Area Code-wise Sourcing Cost Analysis.</p>
 
-  <h2 id="structure">Project Structure</h2>
-  <p>Add a brief description of the project structure here.</p>
+    <h2>Conclusion</h2>
+    <p>Based on the analysis and metrics, XGBoost emerged as the best model for forecasting sourcing costs in this dataset.</p>
 
-  <h2 id="setup">Setup Instructions</h2>
-  <p>Provide instructions on how to set up the project environment.</p>
-
-  <h2 id="usage">Usage</h2>
-  <p>Explain how to use the project and any important usage considerations.</p>
-
-  <h2 id="evaluation">Model Evaluation</h2>
-  <p>Discuss the evaluation of different machine learning models and why XGBoost was chosen as the best model.</p>
-
-  <h2 id="conclusion">Conclusion</h2>
-  <p>Summarize the project's findings, conclusions, and next steps.</p>
-
-  <h2 id="license">License</h2>
-  <p>Include information about the project's license and any other relevant legal details.</p>
-
+    <h2>License</h2>
+    <p>This project is licensed under [License Name].</p>
 </body>
 
 </html>
+
