@@ -36,23 +36,23 @@
 
     <h2 id="evaluation">Model Evaluation</h2>
     <p>Discuss the evaluation of different machine learning models and why XGBoost was chosen as the best model.</p>
-    <h3>XGBoost Performance:</h3>
     <ul>
-        <li>Test R2 Score: XGBoost has the highest test R2 score of 0.4039 among all the models, indicating that it explains a significant portion of the variance in the data compared to other models.</li>
-        <li>Test RMSE and MAE: XGBoost also performs well in terms of test RMSE (40.2144) and test MAE (29.2672), although these metrics are slightly higher than some other models like Random Forest and Random Forest + GridSearchCV.</li>
-        <li>Advantages of XGBoost:
-            <ul>
-                <li>Complexity Handling: XGBoost is known for handling complex relationships in data and can capture non-linear patterns effectively.</li>
-                <li>Regularization: It incorporates regularization techniques to prevent overfitting, making it robust against noise and outliers in the dataset.</li>
-                <li>Feature Importance: XGBoost provides insights into feature importance, allowing you to understand which features are most influential in predicting sourcing costs.</li>
-            </ul>
-        </li>
-        <li>Considerations:
-            <ul>
-                <li>While LSTM also shows competitive performance, it's a deep learning model that might require more data, tuning, and computational resources compared to XGBoost.</li>
-                <li>SVR + Gradient Boosting has a lower R2 score and higher RMSE/MAE compared to XGBoost, indicating that it may not capture the underlying patterns as effectively.</li>
-            </ul>
-        </li>
+        <li><strong>XGBoost Performance:</strong></li>
+        <ul>
+            <li>Test R2 Score: XGBoost has the highest test R2 score of 0.4039 among all the models, indicating that it explains a significant portion of the variance in the data compared to other models.</li>
+            <li>Test RMSE and MAE: XGBoost also performs well in terms of test RMSE (40.2144) and test MAE (29.2672), although these metrics are slightly higher than some other models like Random Forest and Random Forest + GridSearchCV.</li>
+        </ul>
+        <li><strong>Advantages of XGBoost:</strong></li>
+        <ul>
+            <li>Complexity Handling: XGBoost is known for handling complex relationships in data and can capture non-linear patterns effectively.</li>
+            <li>Regularization: It incorporates regularization techniques to prevent overfitting, making it robust against noise and outliers in the dataset.</li>
+            <li>Feature Importance: XGBoost provides insights into feature importance, allowing you to understand which features are most influential in predicting sourcing costs.</li>
+        </ul>
+        <li><strong>Considerations:</strong></li>
+        <ul>
+            <li>While LSTM also shows competitive performance, it's a deep learning model that might require more data, tuning, and computational resources compared to XGBoost.</li>
+            <li>SVR + Gradient Boosting has a lower R2 score and higher RMSE/MAE compared to XGBoost, indicating that it may not capture the underlying patterns as effectively.</li>
+        </ul>
         <li>Conclusion: Based on the metrics and considerations mentioned above, XGBoost emerges as the best suitable model for predicting sourcing costs in your dataset. However, it's always a good practice to further fine-tune and validate the chosen model based on domain knowledge and additional evaluation criteria specific to your use case.</li>
     </ul>
 
